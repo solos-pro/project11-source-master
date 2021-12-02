@@ -135,5 +135,6 @@ backcolor: green/*#9D0*/;
 }
 
 .button-link {
-text-decoration: none
+text-decoration: none;
+margin-left: 10px;
 }
