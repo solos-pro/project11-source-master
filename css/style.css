@@ -69,7 +69,7 @@ padding: 10px;
 
 /* Страничка жанров и тегов */
 
-.genre-first {
+.genre-first, .advert {
 background-color:   #9D0;
 border-radius:      5px;
 margin:             10px 0px;
@@ -131,7 +131,7 @@ backcolor: green/*#9D0*/;
 }
 
 .text-large {
-
+font-size: 200%;
 }
 
 .button-link {
