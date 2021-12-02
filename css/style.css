@@ -49,8 +49,12 @@ flex: auto;
 
 }
 
-.button { margin-top: 10px; color: white; background-color: blue;
-border-radius:7px; padding: 10px;
+.button, .button-link {
+margin-top: 10px;
+color: white;
+background-color: blue;
+border-radius:7px;
+padding: 10px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -131,5 +135,5 @@ backcolor: green/*#9D0*/;
 }
 
 .button-link {
-
+text-decoration: none
 }
