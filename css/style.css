@@ -13,7 +13,17 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+    font-family: Arial;
 }
+
+h2 {
+font-size: 150%;
+}
+
+h2.big-size {
+font-size: 300%
+}
+
 
 p {
 
@@ -26,10 +36,10 @@ a {
 /* Колонки */
 
 .row {
-
+display: flex;
 }
 .col {
-
+flex: auto;
 }
 
 
@@ -56,19 +66,36 @@ border-radius:7px; padding: 10px;
 /* Страничка жанров и тегов */
 
 .genre-first {
+background-color:   #9D0;
+border-radius:      5px;
+margin:             10px 0px;
+padding:            5px;
+width:              90%;
 
 }
 
 .genre-second {
-
+background-color:   #079;
+border-radius:      5px;
+margin:             10px 0px;
+padding:            5px;
+width:              70%;
 }
 
 .genre-third {
-
+background-color:   #FB6;
+border-radius:      5px;
+margin:             10px 0px;
+padding:            5px;
+width:              50%;
 }
 
 .genre-fourth {
-
+background-color:   #F7F;
+border-radius:      5px;
+margin:             10px 0px;
+padding:            5px;
+width:              40%;
 }
 
 .tag {
@@ -78,13 +105,21 @@ border-radius:7px; padding: 10px;
 /* Страничка популярного */
 
 .cover {
-
+flex-wrap: wrap;
+padding: 10px;
+.row {
+display: flex;
+}
+.col {
+flex: auto;
+}
+/*justify-content:*/
 }
 
 /* Страничка подписки  */
 
 .box-green {
-
+backcolor: green/*#9D0*/;
 }
 
 .box-purple {
