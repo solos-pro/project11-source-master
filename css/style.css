@@ -39,15 +39,15 @@ a {
 
 }
 
-.button {
-
+.button { margin-top: 10px; color: white; background-color: blue;
+border-radius:7px; padding: 10px;
 }
 
 /* Потом специальные правила по страничкам */
 
 /* Login*/
 
-.input-login {
+.input-login { margin-top: 10px;
 
 
 }
